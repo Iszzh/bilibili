@@ -4,10 +4,10 @@
       <mu-circular-progress color="#f48fb1" :size="40"></mu-circular-progress>
     </div>
     <div v-if="!ok">
-      <mu-list-item title="综合">
-        <mu-icon slot="right" value="starred"></mu-icon>
-      </mu-list-item>
-      <mu-divider></mu-divider>
+      <!--<mu-list-item title="综合">-->
+        <!--<mu-icon slot="right" value="starred"></mu-icon>-->
+      <!--</mu-list-item>-->
+      <!--<mu-divider></mu-divider>-->
   
       <div class="content">
         <div v-for="(item,index) in list" :key="index" :class="index%2==0?'mright':''" class="card">

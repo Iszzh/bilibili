@@ -30,7 +30,6 @@
                     </div>
                 </div>
             </mu-paper>
-    
         </div>
         <div v-if="activeTab === 'tab2'">
             <div class="commentList">
