@@ -1,7 +1,7 @@
 <template>
     <div id="details">
         <mu-appbar class="topTitle" :title="recom.author">
-            <mu-icon-button @click="handleBack" icon="reply" slot="left"></mu-icon-button>
+            <mu-icon-button @click="handleBack" icon="arrow_back_ios" slot="left"></mu-icon-button>
             <mu-icon-menu icon="more_vert" slot="right">
                 <mu-menu-item title="分享"></mu-menu-item>
                 <mu-menu-item title="举报"></mu-menu-item>

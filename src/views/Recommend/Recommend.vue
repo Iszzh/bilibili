@@ -58,6 +58,7 @@ export default {
   left: 0;
   top: 3rem;
   z-index: 1;
+  margin-top: 0.25rem;
 }
 .mu-item{
   min-height: 1rem;

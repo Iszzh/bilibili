@@ -1,6 +1,6 @@
 <template>
     <div id="tabs">
-        <mu-tabs :value="activeTab" @change="handleTabChange">
+        <mu-tabs class="tabs" :value="activeTab" @change="handleTabChange">
             <mu-tab @click="tab1" value="tab1" title="直播"></mu-tab>
             <mu-tab @click="tab2" value="tab2" title="推荐"></mu-tab>
             <mu-tab @click="tab3" value="tab3" title="追番"></mu-tab>
@@ -30,9 +30,9 @@ export default {
         handleScroll() {
             try {
                 //获取 顶部用户信息栏
-                let top = document.getElementById('top');
+                let top = document.getElementsByClassName('mu-appbar')[0];
                 //获取 导航栏以及导航栏的高度
-                let tabs = document.getElementsByClassName('mu-tabs')[0];
+                let tabs = document.getElementsByClassName('tabs')[0];
                 let tabTop = tabs.offsetHeight;
                 //获取滚动条的高度
                 let nt = document.body.scrollTop;
