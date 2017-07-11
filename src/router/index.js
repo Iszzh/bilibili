@@ -30,7 +30,7 @@ let router = new VueRouter({
     routes:[{
         path:'/',
         component:Home,
-        redirect:'/Home'
+        redirect:'/Home/Recommend'
     },{
         path:'/Login',
         component:Login,

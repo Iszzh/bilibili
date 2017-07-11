@@ -8,7 +8,9 @@
             <mu-tab @click="tab5" value="tab5" title="动态"></mu-tab>
             <mu-tab @click="tab6" value="tab6" title="发现"></mu-tab>
         </mu-tabs>
-        <router-view id="all"></router-view>
+        <keep-alive>
+            <router-view id="all"></router-view>
+        </keep-alive>
     </div>
 </template>
 

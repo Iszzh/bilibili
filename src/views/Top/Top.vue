@@ -16,9 +16,9 @@
                     <img class="leftImg" @click="handleAvatar" :src="user.useravatar" alt="">
                     <div class="leftName">{{ user.leftname }}</div>
                 </div>
-                <mu-menu-item @click="" title="历史记录" leftIcon="remove_red_eye"></mu-menu-item>
-                <mu-menu-item @click="" title="我的收藏" leftIcon="starred"></mu-menu-item>
-                <mu-menu-item @click="" title="帮助中心" leftIcon="help"></mu-menu-item>
+                <mu-menu-item title="历史记录" leftIcon="remove_red_eye"></mu-menu-item>
+                <mu-menu-item title="我的收藏" leftIcon="starred"></mu-menu-item>
+                <mu-menu-item title="帮助中心" leftIcon="help"></mu-menu-item>
                 <mu-menu-item @click="handleSettings" title="设置" leftIcon="settings"></mu-menu-item>
                 <mu-list-item v-if="hasUser" @click="signOut" title="退出登录"></mu-list-item>
                 <mu-list-item v-if="docked" @click.native="open = false" title="Close"></mu-list-item>
